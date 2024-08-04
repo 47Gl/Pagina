@@ -1,0 +1,183 @@
+@font-face {
+    font-family: Klavika;
+    src: url(../tipografia/klavika-bold.otf);
+}
+
+@font-face {
+    font-family: Klavika_light;
+    src: url(../tipografia/klavika-light.otf);
+}
+
+@font-face {
+    font-family: Klavika_italic;
+    src: url(../tipografia/klavika-regular-italic.otf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header {
+    background-color: #0099FF;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 10%;
+    padding: 5px 3%;
+    box-sizing: border-box;
+    font-family: Klavika;
+    font-size: 20px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+
+}
+
+
+.header .logo {
+    cursor: pointer;
+    margin-right: auto;
+
+}
+
+.header .logo img {
+    height: 80px;
+    width: auto;
+    transition: all 0.3sz;
+}
+
+.header .logo img:hover {
+    transform: scale(1.2);
+}
+
+
+.header .nav {
+    list-style: none;
+
+
+}
+
+.header .nav li {
+    display: inline-block;
+    padding: 0 20px;
+}
+
+.header .nav li:hover {
+    transform: scale(1.1);
+}
+
+.header .nav a {
+    font-size: 700;
+    color: black;
+    text-decoration: none;
+}
+
+.header .nav li a:hover {
+    color: aliceblue;
+}
+
+.inicio {
+    font-family: Klavika_italic;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    padding-top: 60px
+}
+
+.inicio_part2 {
+    font-family: Klavika;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+
+.Incio_image {
+    width: 100%;
+    max-width: 1400px;
+    min-width: 320px;
+    margin: auto;
+}
+
+.Incio_image img {
+    width: 100%;
+    border-radius: 15px;
+    box-shadow: 0px 3px 5px rgba(15, 15, 15, .5);
+}
+
+.QuinesSomos {
+    font-family: Klavika;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+    margin: 1%;
+}
+
+.descripcion {
+    font-family: Klavika_italic;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    margin: 0% 2%;
+}
+
+.talleres{
+    font-family: Klavika;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    margin: 0% 2%;
+}
+.talleresD2{
+    font-family: Klavika_light;
+    font-size: 23px;
+    display: flex;
+    justify-content: center;
+    margin: 0% 2%;
+}
+
+.imtaller{
+    width: 37%;
+    height: 22%;
+    margin: 0% 2%;
+}
+
+.talleresD{
+    font-family: Klavika_light;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    margin: 0% 2%;
+}
+.contenidoT .p{
+    font-family: Klavika_light;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    margin: 0% 2%;
+}
+
+.NoTe{
+    font-family: Klavika;
+    font-size: 22px;
+    display: flex;
+    justify-content: center;
+    margin-left: 0%;
+    margin-right: 0%;
+    margin-bottom: 12%;
+}
+.Historia{
+    font-family: Klavika;
+    font-size: 45px;
+    display: flex;
+    justify-content: center;
+    margin-top: 3%;
+}
+.h img{
+        display: block; /* Hace que la imagen se comporte como un bloque */
+        margin: 0 auto; /* Centra la imagen horizontalmente */
+        width: 150px; 
+}
